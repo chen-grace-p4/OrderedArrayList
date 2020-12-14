@@ -6,6 +6,10 @@ public class Tester {
 
     // hello.add(1, null);
     hello.add(1, "hi");
+    System.out.println(hello);
+
+    System.out.println(hello.set(0, "bye"));
+    // hello.set(1, null);
 
     System.out.println(hello);
   }
