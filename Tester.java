@@ -23,12 +23,14 @@ public class Tester {
     hello.add(1);
     hello.add(2);
     hello.add(4);
-    System.out.println(hello);
+    // System.out.println(hello);
     hello.add(3);
-    System.out.println(hello);
+    // System.out.println(hello);
     hello.add(-5);
-    hello.add(100);
+    hello.add(0, 100);
+    hello.set(0, 99);
+    hello.set(0, null);
     System.out.println(hello);
-    hello.add(null);
+    // hello.add(null);
   }
 }
