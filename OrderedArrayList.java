@@ -22,4 +22,12 @@ public class OrderedArrayList<T extends Comparable<T>> extends NoNullArrayList<T
     }
   }
 
+  public void add(int index, T element) {
+    if (element == null) {
+      throw new IllegalArgumentException("Added element shouldn't be null");
+    } else {
+      super.add(findIndex(element), element);
+    }
+  }
+
 }
