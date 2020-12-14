@@ -4,6 +4,10 @@ public class OrderedArrayList<T extends Comparable<T>> extends NoNullArrayList<T
     super();
   }
 
+  public OrderedArrayList(int startingCapacity) {
+    super(startingCapacity);
+  }
+
   private int findIndex(T element) {
     for (int i = 0; i < super.size(); i++) {
       if (element.compareTo(super.get(i)) < 0) {

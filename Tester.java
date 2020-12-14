@@ -20,17 +20,18 @@ public class Tester {
     // System.out.println(hello);
 
     OrderedArrayList<Integer> hello = new OrderedArrayList<Integer>();
-    hello.add(1);
-    hello.add(2);
-    hello.add(4);
+    OrderedArrayList<Integer> hello2 = new OrderedArrayList<Integer>(20);
+    // hello.add(1);
+    // hello.add(2);
+    // hello.add(4);
+    // // System.out.println(hello);
+    // hello.add(3);
+    // // System.out.println(hello);
+    // hello.add(-5);
+    // hello.add(0, 100);
+    // hello.set(0, 99);
+    // hello.set(0, null);
     // System.out.println(hello);
-    hello.add(3);
-    // System.out.println(hello);
-    hello.add(-5);
-    hello.add(0, 100);
-    hello.set(0, 99);
-    hello.set(0, null);
-    System.out.println(hello);
-    // hello.add(null);
+    // // hello.add(null);
   }
 }
